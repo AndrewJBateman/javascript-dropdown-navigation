@@ -1,7 +1,8 @@
 const triggers = document.querySelectorAll('.cool > li'); //all direct descendants of the class cool that are li
-const background = document.querySelector('.dropdownBackground');
+const background = document.querySelector('.dropdownBackground'); //only need 1 element so use querySelector
 const nav = document.querySelector('.top');
 
+// function triggered by a mouse-enter event
 function handleEnter() {
   this.classList.add('trigger-enter');
   //with arrow function, value of this is inherited from parent
@@ -24,10 +25,11 @@ function handleEnter() {
   background.style.setProperty('transform', `translate(${coords.left}px, ${coords.top}px)`); //css property
 }
 
+// function triggered by a mouse-leave event
 function handleLeave() {
   this.classList.remove('trigger-enter', 'trigger-enter-active');
   background.classList.remove('open');
 }
-
+// create mouse-event triggers for handleEnter and handleLeave functions 
 triggers.forEach(trigger => trigger.addEventListener('mouseenter', handleEnter));
 triggers.forEach(trigger => trigger.addEventListener('mouseleave', handleLeave));
