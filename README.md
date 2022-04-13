@@ -1,8 +1,12 @@
 # :zap: Javascript Dropdown Navigation
 
 * A dropdown navigation menu that follows the mouse along each list item in the top. The size of the background of the dropdown adjusts to the size of the content menu. Tutorial from Wes Bos Javascript30 Youtube series.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**\* Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/javascript-dropdown-navigation?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/javascript-dropdown-navigation?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/javascript-dropdown-navigation?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/javascript-dropdown-navigation?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -28,7 +32,7 @@
 
 ## :signal_strength: Technologies
 
-* [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+* [Javascript ECMA-262 ECMAScript 2021](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
 ## :floppy_disk: Setup
 
@@ -57,8 +61,8 @@ const coords = {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working code.
-* To-Do: Nothing.
+* Status: Working
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
@@ -66,4 +70,4 @@ const coords = {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
